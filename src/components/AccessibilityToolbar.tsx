@@ -202,30 +202,6 @@ export const AccessibilityToolbar = () => {
                   {librasActive ? "Desativar" : "Ativar"} Intérprete
                 </Button>
               </div>
-
-              <div className="pt-4 border-t">
-                <h4 className="text-sm font-medium text-gray-700 mb-2">
-                  Navegação por teclado:
-                </h4>
-                <ul className="text-xs text-gray-600 space-y-1">
-                  <li>
-                    • <kbd className="bg-gray-100 px-1 rounded">Tab</kbd>:
-                    Navegar entre elementos
-                  </li>
-                  <li>
-                    • <kbd className="bg-gray-100 px-1 rounded">Enter</kbd>:
-                    Ativar botões e links
-                  </li>
-                  <li>
-                    • <kbd className="bg-gray-100 px-1 rounded">Esc</kbd>:
-                    Fechar menus e modais
-                  </li>
-                  <li>
-                    • <kbd className="bg-gray-100 px-1 rounded">Setas</kbd>:
-                    Navegar em menus
-                  </li>
-                </ul>
-              </div>
             </div>
           </Card>
         </div>
