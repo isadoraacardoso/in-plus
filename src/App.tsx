@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,6 +13,7 @@ import Vagas from "./pages/Vagas";
 import Empresas from "./pages/Empresas";
 import Consultoria from "./pages/Consultoria";
 import Sobre from "./pages/Sobre";
+import Loja from "./pages/Loja Virtual";
 import SoftSkills from "./pages/cursos/SoftSkills";
 import HardSkills from "./pages/cursos/HardSkills";
 import Dashboard from "./pages/Dashboard/Index";
@@ -40,6 +40,7 @@ const App = () => (
             <Route path="/empresas" element={<Empresas />} />
             <Route path="/consultoria" element={<Consultoria />} />
             <Route path="/sobre" element={<Sobre />} />
+            <Route path="/loja" element={<Loja />} />
             <Route path="/dashboard" element={<Dashboard />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
