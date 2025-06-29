@@ -31,7 +31,7 @@ export default function LojaPage() {
             className="rounded-lg object-cover"
           />
           <h2 className="text-xl font-semibold mt-4">Óculos </h2>
-          <p className="text-gray-600 mb-2"></p>
+          <p className="text-gray-600 mb-2">Óculos para deficientes visuais</p>
           <p className="text-lg font-bold mb-4">R$ 199,00</p>
           <Button onClick={adicionarAoCarrinho}>Adicionar ao carrinho</Button>
           {carrinho > 0 && (
